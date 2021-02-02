@@ -48,7 +48,7 @@ const EditProfile = ({
     if (profile.social) {
       toggleSocialInputs(true);
     }
-  }, [loading]);
+  }, [loading, getCurrentProfile]);
 
   const {
     company,
